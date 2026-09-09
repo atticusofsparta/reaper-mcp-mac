@@ -4,6 +4,7 @@ import { registerTrackTools } from "./tracks.js";
 import { registerMidiTools } from "./midi.js";
 import { registerFxTools } from "./fx.js";
 import { registerTransportTools } from "./transport.js";
+import { registerRenderTool } from "./render.js";
 import { registerRawTool } from "./raw.js";
 
 export function registerAllTools(ctx: ToolContext): void {
@@ -12,5 +13,6 @@ export function registerAllTools(ctx: ToolContext): void {
   registerMidiTools(ctx);
   registerFxTools(ctx);
   registerTransportTools(ctx);
+  registerRenderTool(ctx);
   registerRawTool(ctx);
 }

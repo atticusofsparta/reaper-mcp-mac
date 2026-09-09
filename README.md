@@ -87,6 +87,7 @@ claude mcp add reaper -- node /Users/atticus/Documents/code/atticusofsparta/reap
 | `reaper_get_fx_params` / `reaper_set_fx_param` | Read/write FX parameters |
 | `reaper_transport` | play / stop / pause / record |
 | `reaper_set_edit_cursor` | Move edit cursor (seconds) |
+| `reaper_render` | Bounce the master to a 24-bit WAV (time selection or whole project) |
 | `reaper_call` | **Escape hatch:** call any ReaScript function by name |
 
 ### The escape hatch
